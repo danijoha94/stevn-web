@@ -1,4 +1,4 @@
-import Icon from "@/app/Icon/icon";
+import Icon from "@/app/Icon/Icon";
 import styles from "./Footer.module.css";
 
 export default function Footer() {

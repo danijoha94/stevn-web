@@ -1,4 +1,4 @@
-import styles from "./icon.module.css";
+import styles from "./Icon.module.css";
 
 export type TIcon =
   | "contact"
