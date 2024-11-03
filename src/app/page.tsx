@@ -8,7 +8,7 @@ import ContactSection from "@/components/ContactSection/ContactSection";
 import Footer from "@/components/Footer/Footer";
 import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
 
-export const SECTION_HREF_IDS = {
+const SECTION_HREF_IDS = {
   conent_section: "content",
   about_section: "about",
   contact_section: "contact",

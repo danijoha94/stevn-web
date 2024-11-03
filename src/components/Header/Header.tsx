@@ -1,7 +1,12 @@
 import Image from "next/image";
 import styles from "./Header.module.css";
-import { SECTION_HREF_IDS } from "@/app/page";
 import Header_button from "./Header_button";
+
+const SECTION_HREF_IDS = {
+  conent_section: "content",
+  about_section: "about",
+  contact_section: "contact",
+};
 
 export default function Navbar() {
   return (
