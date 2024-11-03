@@ -1,0 +1,50 @@
+.backdrop {
+  background-image: url("/images/barcode.png");
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(140, 211, 255, 0.813), rgba(229, 104, 46, 0.639));
+  backdrop-filter: blur(1px);
+  margin-top: 2rem;
+}
+
+.contact_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.text{
+    font-size: 1.5rem;
+    color: var(--color-neutral);
+    padding: 0.5rem 0;
+    align-self: center;
+}
+
+.contact_buttons{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+
+    flex-wrap: wrap;
+}
+
+.contact_button{
+    background-color: var(--color-primary);
+    color: var(--color-neutral);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem;
+    border-radius: 4px;
+    gap: 0.5rem;
+}

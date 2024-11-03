@@ -1,0 +1,19 @@
+.icon[data-style="primary"] {
+  fill: var(--color-primary);
+}
+
+.icon[data-style="secondary"] {
+  fill: var(--color-secondary);
+}
+
+.icon[data-style="neutral"] {
+  fill: var(--color-neutral);
+}
+
+.icon[data-style="accent"] {
+  fill: var(--color-accent);
+}
+
+.icon[data-style="dark"] {
+  fill: var(--color-text);
+}

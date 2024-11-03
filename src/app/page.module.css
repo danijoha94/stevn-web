@@ -1,0 +1,32 @@
+.page {
+  font-family: var(--font-geist-sans);
+  display: flex;
+  flex-direction: column;
+}
+
+.backdrop{
+  background-image: url('/images/barcode.png');
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: cover;
+}
+
+.top{
+  backdrop-filter: brightness(30%);
+}
+
+.section{
+  width: 80%;
+  align-self: center;
+  padding: 2rem;
+  max-width: 1000px;
+
+  margin-bottom: 7vw;
+}
+
+
+.line{
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, rgba(140, 211, 255, 0.813), rgba(229, 104, 46, 0.639));
+}

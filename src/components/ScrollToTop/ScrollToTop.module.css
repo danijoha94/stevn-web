@@ -1,0 +1,23 @@
+.scroll_to_top {
+  background-color: var(--color-text);
+  position: fixed;
+  z-index: 1;
+  bottom: 0.25rem;
+  right: calc(50% - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+  border-radius: 100%;
+}
+
+.scroll_to_top[data-visible="true"] {
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.scroll_to_top[data-visible="false"] {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}

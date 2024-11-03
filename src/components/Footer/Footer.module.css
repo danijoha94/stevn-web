@@ -1,0 +1,28 @@
+.footer{
+   background-color: var(--color-secondary);
+   display: flex;
+   justify-content: center;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text);
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
