@@ -1,12 +1,12 @@
-import Header from "@/components/Header/Header";
+import Header from "../components/Header/Header";
 import styles from "./page.module.css";
-import Hero from "@/components/Hero/Hero";
+import Hero from "../components/Hero/Hero";
 import DescriptionSection from "@/components/DescriptionSection/DescriptionSection";
 import ContentSection from "@/components/ContentSection/ContentSection";
 import AboutSection from "@/components/AboutSection/AboutSection";
 import ContactSection from "@/components/ContactSection/ContactSection";
-import Footer from "@/components/Footer/Footer";
-import ScrollToTop from "@/components/ScrollToTop/ScrollToTop";
+import Footer from "../components/Footer/Footer";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const SECTION_HREF_IDS = {
   conent_section: "content",

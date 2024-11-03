@@ -1,4 +1,4 @@
-import Icon, { TIcon } from "@/app/Icon/Icon";
+import Icon, { TIcon } from "../../app/Icon/Icon";
 import styles from "./ContentCard.module.css";
 
 interface IProps {

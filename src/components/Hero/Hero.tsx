@@ -1,4 +1,4 @@
-import Icon from "@/app/Icon/Icon";
+import Icon from "../../app/Icon/Icon";
 import styles from "./Hero.module.css";
 
 export default function Hero() {

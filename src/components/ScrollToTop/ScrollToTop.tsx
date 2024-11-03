@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import styles from "./ScrollToTop.module.css";
-import Icon from "@/app/Icon/Icon";
+import Icon from "../../app/Icon/Icon";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);

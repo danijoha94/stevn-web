@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./ProfileCard.module.css";
-import Icon from "@/app/Icon/Icon";
+import Icon from "../../app/Icon/Icon";
 
 export default function ProfileCard() {
   return (
