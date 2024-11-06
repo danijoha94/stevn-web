@@ -12,12 +12,12 @@ export default function Footer() {
         </span>
         <ul className={styles.contact}>
           <li>
-            <a>
+            <a href="tel: +4792057220">
               <Icon type={"phone"} size={2} style="dark" />
             </a>
           </li>
           <li>
-            <a>
+            <a href="mailto: daniel@johansenweb.no">
               <Icon type={"mail"} size={2} style="dark" />
             </a>
           </li>

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./ProfileCard.module.css";
-import Icon from "../../app/Icon/Icon";
 
 export default function ProfileCard() {
   return (
@@ -15,34 +14,27 @@ export default function ProfileCard() {
           height={0}
           sizes="100vw"
         ></Image>
-        <div className={styles.info_boble_one}>
-          <span>Advokat</span>
-        </div>
-        <div className={styles.info_boble_two}>
-          <span>Kristian Hersløv</span>
-        </div>
       </div>
       <div className={styles.contact}>
         <div className={styles.contact_info}>
-          <h3 className={styles.contact_header}>Kontakt</h3>
+          <h3 className={styles.contact_header}>Kristian Hersløv</h3>
           <ul className={styles.contact_list}>
             <li className={styles.contact_list_item}>
-              <a className={styles.contact_list_item_tag}>
-                <Icon type={"location"} size={1} style={"neutral"} />
-                Oslo, Norge
-              </a>
+              <p className={styles.contact_list_item_tag}>kh@stevn.no</p>
             </li>
             <li className={styles.contact_list_item}>
-              <a className={styles.contact_list_item_tag}>
-                <Icon type={"mail"} size={1} style={"neutral"} />
-                ola@nordmann.no
-              </a>
+              <p className={styles.contact_list_item_tag}>+47 90 53 31 37</p>
             </li>
             <li className={styles.contact_list_item}>
-              <a className={styles.contact_list_item_tag}>
-                <Icon type={"phone"} size={1} style={"neutral"} />
-                +47 123 45 679
-              </a>
+              <p className={styles.contact_list_item_tag}>
+                Dronning Eufemias gate 16 (DEG 16)
+              </p>
+            </li>
+            <li className={styles.contact_list_item}>
+              <p className={styles.contact_list_item_tag}>0191 Oslo</p>
+            </li>
+            <li className={styles.contact_list_item}>
+              <p className={styles.contact_list_item_tag}>Org nr 933 215 180</p>
             </li>
           </ul>
         </div>

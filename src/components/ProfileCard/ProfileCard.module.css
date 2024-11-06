@@ -24,33 +24,12 @@
   background-color: var(--color-secondary);
   position: absolute;
   bottom: 0;
-  left: 2rem;
-  right: 2rem;
-}
-
-.info_boble_one {
-  background-color: var(--color-accent);
-  padding: 0.5rem;
-  border-radius: 2rem;
-    
-  position: absolute;
-  bottom: 7rem;
   left: 0;
-}
-
-.info_boble_two {
-    background-color: var(--color-accent);
-    padding: 0.5rem;
-    border-radius: 2rem;
-
-    position: absolute;
-    bottom: 1rem;
-    right: 0;
+  right: 0;
 }
 
 .contact{
     background-color: var(--color-text);
-    margin: 0 2rem;
     color: var(--color-neutral);
 
     display: flex;
@@ -65,8 +44,8 @@
 }
 
 .contact_header{
-    padding: 0.5rem 0;
-    font-size: 2rem
+    padding: .5rem;
+    font-size: 1.5rem
 }
 
 .contact_list{
@@ -75,7 +54,7 @@
     align-items: flex-start;
 
     gap: 0.5rem;
-    padding-bottom: 1rem;
+    padding: 0 .5rem 1rem .5rem;
 }
 
 .contact_list_item_tag{

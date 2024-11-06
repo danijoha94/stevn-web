@@ -4,6 +4,7 @@
   --color-neutral: #efeee5;
   --color-accent: #d18266;
   --color-text: #364042;
+  --color-url: #00719c;
 
   --background: white;
   --foreground: var(--color-text);
