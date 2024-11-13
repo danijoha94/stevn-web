@@ -15,13 +15,12 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <ScrollToTop />
-      <div className={styles.backdrop}>
+      {/* <div className={styles.backdrop}>
         <p className={styles.image_watermark}>Braathen Eiendom</p>
-        <div className={styles.top}>
-          <Header></Header>
-        </div>
-      </div>
-      <div className={styles.line}></div>
+        <div className={styles.top}> */}
+      <Header></Header>
+      {/* </div>
+      </div> */}
       <section className={styles.section}>
         <AboutSection />
       </section>

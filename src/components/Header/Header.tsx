@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./Header.module.css";
 import Header_button from "./Header_button";
 
@@ -10,17 +9,6 @@ const SECTION_HREF_IDS = {
 export default function Header() {
   return (
     <>
-      <Image
-        className={styles.image__small}
-        src={"/assets/logo-small.png"}
-        alt={"Stevn logo"}
-        width={0}
-        height={0}
-        sizes="100vw"
-      ></Image>
-      <div className={styles.title_container}>
-        <h1 className={styles.title}>STEVN ADVOKATER</h1>
-      </div>
       <header className={styles.header}>
         <nav className={styles.navbar}>
           <ul className={styles.navbar__list}>
@@ -39,6 +27,14 @@ export default function Header() {
             </li>
           </ul>
         </nav>
+        <div className={styles.top_banner}>
+          <div className={styles.title_container}>
+            <h1 className={styles.title}>STEVN ADVOKATFIRMA</h1>
+          </div>
+          <div className={styles.image_image_container}>
+            <p className={styles.watermark}>Foto: Braathen Eiendom AS</p>
+          </div>
+        </div>
       </header>
     </>
   );

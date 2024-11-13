@@ -20,7 +20,7 @@ export default function AboutSection() {
           – Kontoret ligger i Oslo Sentrum – Barcode
         </p>
         <div className={styles.image_container}>
-          <p className={styles.image_watermark}>Braathen Eiendom</p>
+          <p className={styles.image_watermark}>Foto: Braathen Eiendom AS</p>
           <Image
             className={styles.image}
             src={"/images/frontdoor.png"}

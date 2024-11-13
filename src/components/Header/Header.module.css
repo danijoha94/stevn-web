@@ -1,76 +1,88 @@
-.header {
+
+.top_banner{
   display: flex;
-  border-bottom: 1px solid var(--color-secondary);
-  background-color: var(--color-neutral);
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  min-height: 50px;
+  justify-content: flex-end;
+  position: relative;
 }
 
-.navbar {
-  color: var(--color-text);
-  padding: 0 10rem;
+.image_image_container{
+  width: 75%;
+  height: 20rem;
+  background-image: url('/images/barcode.png');
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+  position: relative;
 }
 
-.navbar__list {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
+.title_container{
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  left: 2rem;
+  bottom: calc(50% - 1rem);
+  z-index: 1;
+  position: absolute;
 
-.navbar__list_item {
-  white-space: nowrap;
-}
-
-.image__small {
-  width: 2rem;
-  height: auto;
-  display: none;
-
-    position: absolute;
-  left: 0.5rem;
-  top: 0.5rem;
+  padding: 2rem;
+  border-radius: 4px;
 }
 
 .title{
-  font-size: 1rem;
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-
-  padding: 0.5rem;
-  border-radius: 2px;
-  width: fit-content;
-
-  position: absolute;
-  left: 0.5rem;
-  top: 0.5rem;
+  white-space: nowrap;
+  font-size: 2rem;
 }
 
-@media (max-width: 600px) {
-  .header {
-   justify-content: flex-end;
-  }
-  .navbar {
-    padding: 0 1rem;
-  }
+.navbar{
+  display: flex;
+  justify-content: center;
 }
-  
 
-@media (max-width: 450px) {
-  .title {
-    display: none;
-  }
-  .image__small {
-    display: block;
-  }
-
-  .header {
-    gap: 4px;
-    padding: 4px;
-  }
+.navbar__list{
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .header_button:hover{
-    text-decoration: underline;
+text-decoration: underline;
+}
+
+.watermark{
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+  color: white;
+  font-size: 1.5vw;
+  opacity: 0.7;
+}
+
+
+@media (min-width: 1500px) {
+  .image_image_container{
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .image_image_container{
+    width: 100%;
+  }
+
+  .title_container{
+    position: unset;
+    height: fit-content;
+    padding: 0.5rem;
+
+    border-radius: 0px;
+  }
+
+  .top_banner{
+    flex-direction: column;
+  }
+  .title{
+    white-space: nowrap;
+    font-size: 16px;
+    text-align: center;
+  }
+
 }

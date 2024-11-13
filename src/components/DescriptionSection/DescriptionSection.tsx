@@ -9,13 +9,10 @@ export default function DescriptionSection() {
       <p className={styles.text}>
         Advokat Kristian Hersløv arbeider i hovedsak med forretningsjuridiske
         spørsmål med hovedvekt på arbeids-, kontrakts- og entrepriserett. Han
-        Utdanning/år: Cand jur., Universitet i Oslo (1978) Arbeidserfaring:
-        Grafiske Bedrifters Landsforening Platou Investment AS Praktiserende
-        advokat i Oslo siden 1983 Medlemskap /verv: Den Norske Advokatforening
-        Forretningsfører og advokat for Kranutleiernes Landsforening
+        har videre erfaring med større utbyggingsprosjekter.
       </p>
       <p className={styles.text}>
-        Oppdrag leveres under betingelsene i oppdragsbekreftelsen som kan lastes
+        Oppdrag leveres under betingelsene i Oppdragsbekreftelsen som kan laste
         ned{" "}
         <a
           className={styles.link}
@@ -24,11 +21,7 @@ export default function DescriptionSection() {
         >
           her
         </a>
-        .
-      </p>
-      <p className={styles.text}>
-        Har videre erfaring med større utbyggingsprosjekter. Timepris: NOK 2
-        800,- eks mva hvis ikke annet er avtalt
+        . Timepris er NOK 2 800 eks. mva. med mindre annet er avtalt.
       </p>
       <ul className={styles.list}>
         <li>

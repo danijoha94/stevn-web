@@ -8,7 +8,7 @@ export default function ProfileCard() {
         <div className={styles.box}></div>
         <Image
           className={styles.image}
-          src={"/images/profile.png"}
+          src={"/images/profile-3.png"}
           alt={"Profilbilde av Advokat Kristian Hersløv"}
           width={0}
           height={0}
