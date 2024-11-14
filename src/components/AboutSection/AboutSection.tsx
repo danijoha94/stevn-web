@@ -12,10 +12,10 @@ export default function AboutSection() {
           advokat Ole Per Solum og advokat Jon Søland. Se&nbsp;
           <a
             className={styles.link}
-            href="https://proptimize.no/"
+            href="https://advokatpmz.no/"
             target="_blank"
           >
-            www.proptimize.no
+            advokatpmz.no
           </a>{" "}
           – Kontoret ligger i Oslo Sentrum – Barcode
         </p>

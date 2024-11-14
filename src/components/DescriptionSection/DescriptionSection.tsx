@@ -3,16 +3,14 @@ import styles from "./DescriptionSection.module.css";
 export default function DescriptionSection() {
   return (
     <div className={styles.content}>
-      <h2 className={styles.title}>
-        Stevn advokater – arbeids-, kontrakts- og entrepriserett.
-      </h2>
+      <h2 className={styles.title}>Arbeids- kontrakts- og entrepriserett.</h2>
       <p className={styles.text}>
         Advokat Kristian Hersløv arbeider i hovedsak med forretningsjuridiske
         spørsmål med hovedvekt på arbeids-, kontrakts- og entrepriserett. Han
         har videre erfaring med større utbyggingsprosjekter.
       </p>
       <p className={styles.text}>
-        Oppdrag leveres under betingelsene i Oppdragsbekreftelsen som kan laste
+        Oppdrag leveres under betingelsene i oppdragsbetingelsene som kan laste
         ned{" "}
         <a
           className={styles.link}
