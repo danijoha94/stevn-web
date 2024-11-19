@@ -8,7 +8,7 @@ export default function ProfileCard() {
         <div className={styles.box}></div>
         <Image
           className={styles.image}
-          src={"/images/profile-3.png"}
+          src={"/images/profile.webp"}
           alt={"Profilbilde av Advokat Kristian Hersløv"}
           width={0}
           height={0}
@@ -32,6 +32,11 @@ export default function ProfileCard() {
             </li>
             <li className={styles.contact_list_item}>
               <p className={styles.contact_list_item_tag}>0191 Oslo</p>
+            </li>
+            <li className={styles.contact_list_item}>
+              <p className={styles.contact_list_item_tag}>
+                Postadresse: Postboks 1772 Vika, 0122 Oslo.
+              </p>
             </li>
             <li className={styles.contact_list_item}>
               <p className={styles.contact_list_item_tag}>Org nr 933 215 180</p>

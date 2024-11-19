@@ -23,7 +23,7 @@ export default function AboutSection() {
           <p className={styles.image_watermark}>Foto: Braathen Eiendom AS</p>
           <Image
             className={styles.image}
-            src={"/images/frontdoor.png"}
+            src={"/images/frontdoor.webp"}
             alt={"Stevn logo"}
             width={0}
             height={0}

@@ -8,7 +8,7 @@
 .image_image_container{
   width: 75%;
   height: 20rem;
-  background-image: url('/images/barcode.png');
+  background-image: url('/images/barcode.webp');
   background-repeat: no-repeat;
   background-position: 50% 20%;
   background-size: cover;
