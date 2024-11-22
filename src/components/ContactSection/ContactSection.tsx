@@ -1,5 +1,6 @@
 import Icon from "../../app/Icon/Icon";
 import styles from "./ContactSection.module.css";
+import Image from "next/image";
 
 export default function ContactSection() {
   return (
@@ -16,6 +17,20 @@ export default function ContactSection() {
               kh@stevn.no
             </a>
           </div>
+          <a
+            href="https://www.mobilkraner.no/"
+            className={styles.kl_link}
+            target="_blank"
+          >
+            <Image
+              className={styles.image}
+              src={"/images/lk-logo.png"}
+              alt={"Logo til Kranutleiernes Landsforening"}
+              width={0}
+              height={0}
+              sizes="100vw"
+            ></Image>
+          </a>
         </div>
       </div>
     </div>
