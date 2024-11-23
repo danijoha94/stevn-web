@@ -1,4 +1,5 @@
 import styles from "./DescriptionSection.module.css";
+import Image from "next/image";
 
 export default function DescriptionSection() {
   return (
@@ -40,6 +41,22 @@ export default function DescriptionSection() {
             <strong>Medlemskap /verv – </strong>Den Norske Advokatforening
             Forretningsfører og advokat for Kranutleiernes Landsforening
           </span>
+        </li>
+        <li>
+          <a
+            href="https://www.mobilkraner.no/"
+            className={styles.kl_link}
+            target="_blank"
+          >
+            <Image
+              className={styles.image}
+              src={"/images/lk-logo.png"}
+              alt={"Logo til Kranutleiernes Landsforening"}
+              width={0}
+              height={0}
+              sizes="100vw"
+            ></Image>
+          </a>
         </li>
       </ul>
     </div>

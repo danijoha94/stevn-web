@@ -33,3 +33,8 @@
 .link:hover{
     text-decoration: underline;
 }
+
+.image{
+    width: auto;
+    height: 3rem;
+}
